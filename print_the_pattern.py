@@ -5,5 +5,7 @@ for num in range(10):
         print (num, end=" ") #print number
     print(" ")
 
-
-
+for num in range(8):
+    for i in range(num):
+        print(num, end= " ")
+    print("\n")
